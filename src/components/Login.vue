@@ -1,5 +1,6 @@
 <template>
 	<div class="inputs">
+		<h1>新添加的</h1>
 		<div class="enter logins" v-show="isShow">
 			<h1>请登录</h1>
 			<input type="text" placeholder="请输入账号(手机号）" ref="uname" />
